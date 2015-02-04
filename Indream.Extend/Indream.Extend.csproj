@@ -39,8 +39,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Basic\Switch.cs" />
     <Compile Include="Basic\For.cs" />
     <Compile Include="Basic\For\ForResult.cs" />
+    <Compile Include="Basic\Switch\SwitchResult.cs" />
     <Compile Include="Delegate\ToTrue.cs" />
     <Compile Include="Basic\If.cs" />
     <Compile Include="Basic\ForEach.cs" />

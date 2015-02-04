@@ -1,4 +1,4 @@
-﻿using Indream.Extend.Basic.For;
+﻿using Indream.Extend.Basic;
 using System;
 using System.Collections.Generic;
 using System.Linq;

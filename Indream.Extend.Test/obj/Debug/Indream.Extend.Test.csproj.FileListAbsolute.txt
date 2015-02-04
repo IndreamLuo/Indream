@@ -5,3 +5,10 @@ C:\Development\GitHub\Indream\Indream.Extend.Test\obj\Debug\Indream.Extend.Test.
 C:\Development\GitHub\Indream\Indream.Extend.Test\obj\Debug\Indream.Extend.Test.pdb
 C:\Development\GitHub\Indream\Indream.Extend.Test\bin\Debug\Indream.Extend.dll
 C:\Development\GitHub\Indream\Indream.Extend.Test\bin\Debug\Indream.Extend.pdb
+C:\Users\indream.luo\Documents\GitHub\Indream\Indream.Extend.Test\bin\Debug\Indream.Extend.Test.dll
+C:\Users\indream.luo\Documents\GitHub\Indream\Indream.Extend.Test\bin\Debug\Indream.Extend.Test.pdb
+C:\Users\indream.luo\Documents\GitHub\Indream\Indream.Extend.Test\bin\Debug\Indream.Extend.dll
+C:\Users\indream.luo\Documents\GitHub\Indream\Indream.Extend.Test\bin\Debug\Indream.Extend.pdb
+C:\Users\indream.luo\Documents\GitHub\Indream\Indream.Extend.Test\obj\Debug\Indream.Extend.Test.csprojResolveAssemblyReference.cache
+C:\Users\indream.luo\Documents\GitHub\Indream\Indream.Extend.Test\obj\Debug\Indream.Extend.Test.dll
+C:\Users\indream.luo\Documents\GitHub\Indream\Indream.Extend.Test\obj\Debug\Indream.Extend.Test.pdb

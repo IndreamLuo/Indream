@@ -14,7 +14,7 @@ namespace Indream.Test
             return value;
         }
 
-        public static IEnumerable<T> Values<T>(params IEnumerable<T> values)
+        public static IEnumerable<T> Values<T>(params T[] values)
         {
             return values;
         }

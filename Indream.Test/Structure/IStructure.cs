@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Indream.Test.Structure
 {
-    interface IStructure
+    public interface IStructure
     {
     }
 }

@@ -3,3 +3,8 @@ C:\Development\GitHub\Indream\Indream.SolutionTest\bin\Debug\Indream.SolutionTes
 C:\Development\GitHub\Indream\Indream.SolutionTest\obj\Debug\Indream.SolutionTest.csprojResolveAssemblyReference.cache
 C:\Development\GitHub\Indream\Indream.SolutionTest\obj\Debug\Indream.SolutionTest.dll
 C:\Development\GitHub\Indream\Indream.SolutionTest\obj\Debug\Indream.SolutionTest.pdb
+C:\Users\indream.luo\Documents\GitHub\Indream\Indream.SolutionTest\bin\Debug\Indream.SolutionTest.dll
+C:\Users\indream.luo\Documents\GitHub\Indream\Indream.SolutionTest\bin\Debug\Indream.SolutionTest.pdb
+C:\Users\indream.luo\Documents\GitHub\Indream\Indream.SolutionTest\obj\Debug\Indream.SolutionTest.csprojResolveAssemblyReference.cache
+C:\Users\indream.luo\Documents\GitHub\Indream\Indream.SolutionTest\obj\Debug\Indream.SolutionTest.dll
+C:\Users\indream.luo\Documents\GitHub\Indream\Indream.SolutionTest\obj\Debug\Indream.SolutionTest.pdb
