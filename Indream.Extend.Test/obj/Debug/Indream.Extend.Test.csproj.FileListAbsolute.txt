@@ -1,0 +1,7 @@
+C:\Development\GitHub\Indream\Indream.Extend.Test\bin\Debug\Indream.Extend.Test.dll
+C:\Development\GitHub\Indream\Indream.Extend.Test\bin\Debug\Indream.Extend.Test.pdb
+C:\Development\GitHub\Indream\Indream.Extend.Test\obj\Debug\Indream.Extend.Test.csprojResolveAssemblyReference.cache
+C:\Development\GitHub\Indream\Indream.Extend.Test\obj\Debug\Indream.Extend.Test.dll
+C:\Development\GitHub\Indream\Indream.Extend.Test\obj\Debug\Indream.Extend.Test.pdb
+C:\Development\GitHub\Indream\Indream.Extend.Test\bin\Debug\Indream.Extend.dll
+C:\Development\GitHub\Indream\Indream.Extend.Test\bin\Debug\Indream.Extend.pdb

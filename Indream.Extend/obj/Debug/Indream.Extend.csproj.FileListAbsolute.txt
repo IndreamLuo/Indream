@@ -1,0 +1,5 @@
+C:\Development\GitHub\Indream\Indream.Extend\obj\Debug\Indream.Extend.csprojResolveAssemblyReference.cache
+C:\Development\GitHub\Indream\Indream.Extend\bin\Debug\Indream.Extend.dll
+C:\Development\GitHub\Indream\Indream.Extend\bin\Debug\Indream.Extend.pdb
+C:\Development\GitHub\Indream\Indream.Extend\obj\Debug\Indream.Extend.dll
+C:\Development\GitHub\Indream\Indream.Extend\obj\Debug\Indream.Extend.pdb

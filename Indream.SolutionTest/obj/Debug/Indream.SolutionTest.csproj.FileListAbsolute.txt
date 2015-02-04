@@ -1,0 +1,5 @@
+C:\Development\GitHub\Indream\Indream.SolutionTest\bin\Debug\Indream.SolutionTest.dll
+C:\Development\GitHub\Indream\Indream.SolutionTest\bin\Debug\Indream.SolutionTest.pdb
+C:\Development\GitHub\Indream\Indream.SolutionTest\obj\Debug\Indream.SolutionTest.csprojResolveAssemblyReference.cache
+C:\Development\GitHub\Indream\Indream.SolutionTest\obj\Debug\Indream.SolutionTest.dll
+C:\Development\GitHub\Indream\Indream.SolutionTest\obj\Debug\Indream.SolutionTest.pdb
