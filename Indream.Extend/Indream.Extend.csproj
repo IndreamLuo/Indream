@@ -39,6 +39,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Basic\Boolean.cs" />
     <Compile Include="Basic\Switch.cs" />
     <Compile Include="Basic\For.cs" />
     <Compile Include="Basic\For\ForResult.cs" />
@@ -50,6 +51,7 @@
     <Compile Include="Linq\Select.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Utility\Null.cs" />
+    <Compile Include="Static.cs" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

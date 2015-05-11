@@ -8,14 +8,22 @@ namespace Indream.Extend
 {
     public static partial class DelegateExtend
     {
-        public static bool RunToTrue(this Action action)
+        /// <summary>
+        /// Runs the action and returns true
+        /// </summary>
+        /// <returns>TRUE</returns>
+        public static bool RunAndToTrue(this Action action)
         {
             action();
 
             return true;
         }
 
-        public static bool RunToFalse(this Action action)
+        /// <summary>
+        /// Runs the action and returns false
+        /// </summary>
+        /// <returns>FALSE</returns>
+        public static bool RunAndToFalse(this Action action)
         {
             action();
 

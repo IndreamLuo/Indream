@@ -9,6 +9,10 @@ namespace Indream.Extend.Linq
 {
     public static class LinqExtend
     {
+        /// <summary>
+        /// Select a set with amount 
+        /// </summary>
+        /// <param name="getItem">Gets each item in index</param>
         public static IEnumerable<T> Select<T>(this int amount, Func<int, T> getItem)
         {
             return new LazyLoadEnumerable<T>(() => LinqExtend.GetEnumerable(amount, getItem));

@@ -1,8 +1,10 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Indream.Extend.Basic;
 
 namespace Indream.Extend
 {
@@ -14,13 +16,15 @@ namespace Indream.Extend
         /// <example>
         /// iEnumerable.ForEach(item => doSomeThingWith(item));
         /// </example>
-        /// <typeparam name="T">The type</typeparam>
-        /// <param name="iEnumerable">The query</param>
         /// <param name="loopAction">The looping action to each item</param>
-        public static void ForEach<T>(this IEnumerable<T> iEnumerable, Action<T> loopAction)
+        /// <returns>The origin enumerable object</returns>
+        public static TEnumerable ForEach<TEnumerable, TItem>(this TEnumerable iEnumerable, Action<TItem> loopAction)
+            where TEnumerable : IEnumerable<TItem>
         {
             foreach (var item in iEnumerable)
                 loopAction(item);
+
+            return iEnumerable;
         }
 
         /// <summary>
@@ -29,32 +33,35 @@ namespace Indream.Extend
         /// <example>
         /// iEnumerable.ForEach(item => doSomeThingWith(item));
         /// </example>
-        /// <typeparam name="T">The type</typeparam>
-        /// <param name="iEnumerable">The query</param>
         /// <param name="loopAction">The looping action to each item, return true to continue and false to break</param>
-        public static void ForEach<T>(this IEnumerable<T> iEnumerable, Func<T, bool> loopAction)
+        public static TEnumerable ForEach<TEnumerable, TItem>(this TEnumerable iEnumerable, Func<TItem, bool> loopAction)
+            where TEnumerable : IEnumerable<TItem>
         {
             foreach (var item in iEnumerable)
                 if (!loopAction(item))
                     break;
+
+            return iEnumerable;
         }
 
         /// <summary>
         /// Substitute for foreach method
         /// </summary>
         /// <example>
-        /// iEnumerable.ForEach(item => doSomeThingWith(item));
+        /// new int[] { 0, 1, 2 }
+        ///     .ForEach((item, index) => i == 0);
         /// </example>
-        /// <typeparam name="T">The type</typeparam>
-        /// <param name="iEnumerable">The query</param>
         /// <param name="loopAction">The looping action to each item, return true to continue and false to break</param>
-        public static void ForEach<T>(this IEnumerable<T> iEnumerable, Func<T, int, bool> loopAction)
+        public static TEnumerable ForEach<TEnumerable, TItem>(this TEnumerable iEnumerable, Func<TItem, int, bool> loopAction)
+            where TEnumerable : IEnumerable<TItem>
         {
             int index = 0;
 
             foreach (var item in iEnumerable)
                 if (!loopAction(item, index++))
                     break;
+
+            return iEnumerable;
         }
     }
 }

@@ -8,15 +8,24 @@ namespace Indream.Extend
 {
     public static partial class UtilityExtend
     {
-        public static T NullOr<T>(this T @object, Func<T> getValue) where T : class
+        /// <summary>
+        /// Returns value of object from getValue when NULL
+        /// </summary>
+        /// <param name="getValue">Gets the value of object</param>
+        public static T NullThen<T>(this T @object, Func<T> getValue) where T : class
         {
             return @object ?? getValue();
         }
 
-        public static T NullOr<T>(this T @object, Func<T> getValue, ref T output) where T : class
+        /// <summary>
+        /// Returns value of object from getValue when NULL
+        /// </summary>
+        /// <param name="getValue">Gets the value of object</param>
+        /// <param name="setValueTo">Target to set the final value</param>
+        public static T NullThen<T>(this T @object, Func<T> getValue, ref T setValueTo) where T : class
         {
-            output = @object ?? getValue();
-            return output;
+            setValueTo = @object ?? getValue();
+            return setValueTo;
         }
     }
 }
