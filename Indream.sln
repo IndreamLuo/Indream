@@ -7,8 +7,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Indream.Extend", "Indream.E
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Indream.Extend.Test", "Indream.Extend.Test\Indream.Extend.Test.csproj", "{E702263B-6506-4C31-AA5A-BEA2DC13B431}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Indream.Test", "Indream.Test\Indream.Test.csproj", "{A9A22ABF-72BE-41B5-95D2-BFE3C09FAC30}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Indream.SolutionTest", "Indream.SolutionTest\Indream.SolutionTest.csproj", "{AC2A71DA-2A37-4D21-966D-306D86C82DC5}"
 EndProject
 Global
@@ -25,10 +23,6 @@ Global
 		{E702263B-6506-4C31-AA5A-BEA2DC13B431}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E702263B-6506-4C31-AA5A-BEA2DC13B431}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E702263B-6506-4C31-AA5A-BEA2DC13B431}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A9A22ABF-72BE-41B5-95D2-BFE3C09FAC30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A9A22ABF-72BE-41B5-95D2-BFE3C09FAC30}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A9A22ABF-72BE-41B5-95D2-BFE3C09FAC30}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A9A22ABF-72BE-41B5-95D2-BFE3C09FAC30}.Release|Any CPU.Build.0 = Release|Any CPU
 		{AC2A71DA-2A37-4D21-966D-306D86C82DC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{AC2A71DA-2A37-4D21-966D-306D86C82DC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AC2A71DA-2A37-4D21-966D-306D86C82DC5}.Release|Any CPU.ActiveCfg = Release|Any CPU

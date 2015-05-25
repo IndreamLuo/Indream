@@ -47,6 +47,9 @@
     <Compile Include="Delegate\ToTrue.cs" />
     <Compile Include="Basic\If.cs" />
     <Compile Include="Basic\ForEach.cs" />
+    <Compile Include="Linq\Union.cs" />
+    <Compile Include="Linq\Infrastructure\ManualEnumerable.cs" />
+    <Compile Include="Linq\Infrastructure\UnionEnumerator.cs" />
     <Compile Include="Linq\Infrastructure\LazyLoadEnumerable.cs" />
     <Compile Include="Linq\Select.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

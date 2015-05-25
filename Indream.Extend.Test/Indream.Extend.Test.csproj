@@ -53,6 +53,7 @@
     <Compile Include="Basic\ForeachTest.cs" />
     <Compile Include="Basic\IfTest.cs" />
     <Compile Include="Delegate\ToTrueTest.cs" />
+    <Compile Include="Linq\UnionTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

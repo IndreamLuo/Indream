@@ -21,8 +21,11 @@ namespace Indream.Extend
         public static TEnumerable ForEach<TEnumerable, TItem>(this TEnumerable iEnumerable, Action<TItem> loopAction)
             where TEnumerable : IEnumerable<TItem>
         {
-            foreach (var item in iEnumerable)
-                loopAction(item);
+            lock (iEnumerable)
+            {
+                foreach (var item in iEnumerable)
+                    loopAction(item);
+            }
 
             return iEnumerable;
         }
@@ -37,9 +40,12 @@ namespace Indream.Extend
         public static TEnumerable ForEach<TEnumerable, TItem>(this TEnumerable iEnumerable, Func<TItem, bool> loopAction)
             where TEnumerable : IEnumerable<TItem>
         {
-            foreach (var item in iEnumerable)
-                if (!loopAction(item))
-                    break;
+            lock (iEnumerable)
+            {
+                foreach (var item in iEnumerable)
+                    if (!loopAction(item))
+                        break;
+            }
 
             return iEnumerable;
         }
@@ -57,11 +63,31 @@ namespace Indream.Extend
         {
             int index = 0;
 
-            foreach (var item in iEnumerable)
-                if (!loopAction(item, index++))
-                    break;
+            lock (iEnumerable)
+            {
+                foreach (var item in iEnumerable)
+                    if (!loopAction(item, index++))
+                        break;
+            }
 
             return iEnumerable;
+        }
+
+        public static IEnumerable<IEnumerable> ForEach(this IEnumerable<IEnumerable> iEnumerables, Func<object[], int, bool> loopAction)
+        {
+            lock(iEnumerables)
+            {
+                var firstEnumerable = iEnumerables.First();
+                lock (firstEnumerable)
+                {
+                    foreach (var item in firstEnumerable)
+                    {
+
+                    }
+                }
+            }
+
+            return iEnumerables;
         }
     }
 }
