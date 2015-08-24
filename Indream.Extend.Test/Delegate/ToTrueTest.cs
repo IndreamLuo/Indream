@@ -7,6 +7,13 @@ namespace Indream.Extend.Test.Delegate
     public class ToTrueTest
     {
         [TestMethod]
+        public void ToTrueOrFalse()
+        {
+            Assert.AreEqual(true, 1.ToTrue());
+            Assert.AreEqual(false, 1.ToFalse());
+        }
+
+        [TestMethod]
         public void ContinuousToTrue()
         {
             new Action(() => { })
