@@ -2,7 +2,7 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
 
-namespace Indream.Extend.Test.Delegate
+namespace Indream.Extend.Test.Converter
 {
     [TestClass]
     public class ToValueTest

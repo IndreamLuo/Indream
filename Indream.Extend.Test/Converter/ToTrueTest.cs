@@ -1,7 +1,7 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace Indream.Extend.Test.Delegate
+namespace Indream.Extend.Test.Converter
 {
     [TestClass]
     public class ToTrueTest

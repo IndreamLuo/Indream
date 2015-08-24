@@ -44,7 +44,8 @@
     <Compile Include="Basic\For.cs" />
     <Compile Include="Basic\For\ForResult.cs" />
     <Compile Include="Basic\Switch\SwitchResult.cs" />
-    <Compile Include="Delegate\ToTrue.cs" />
+    <Compile Include="Converter\ToTrue.cs" />
+    <Compile Include="Converter\ToValue.cs" />
     <Compile Include="Basic\If.cs" />
     <Compile Include="Basic\ForEach.cs" />
     <Compile Include="Linq\Union.cs" />
